@@ -1,0 +1,133 @@
+.portfolio {
+    background-image: var(--second-gradient);
+    padding-top: 5%;
+
+}
+
+.portfolio__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    margin-bottom: 40px;
+
+}
+
+.portfolio__list-item {
+    color: var(--title-color);
+    font-size: var(--smaller-font-size);
+    font-weight: 700;
+    position: relative;
+    transition: all 0.7s var(--transition);
+
+}
+
+.portfolio__list-item::before {
+    content: '';
+    width: 100px;
+    height: 2px;
+    max-width: 60%;
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.7s var(--transition);
+}
+
+.active-work {
+    color: var(--primary-color);
+
+}
+
+.active-work::before,
+.portfolio__list-item:hover::before {
+    width: 100px;
+    transform: scaleX(1);
+}
+
+.portfolio__list-item:hover::before {
+    width: 100px;
+
+
+}
+
+
+.portfolio__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
+}
+
+.portfolio__img-wrapper {
+    border-radius: 18px;
+    overflow: hidden;
+
+}
+
+
+
+.portfolio__img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    transition: all 0.6s var(--transition);
+
+}
+
+.portfolio__items:hover .portfolio__img {
+    transform: scale(1.04);
+    transition: all 0.3s var(--transition);
+
+}
+
+.portfolio__category {
+    color: var(--primary-color);
+    font-size: var(--smaller-font-size);
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+}
+
+.portfolio__category,
+.portfolio__description {
+    margin-top: 20px;
+
+}
+
+.portfolio__description {
+    margin-top: 20px;
+    height: 100px;
+
+}
+
+.portfolio__title {
+    font-size: var(--h4-font-size);
+}
+
+.link {
+
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+    color: var(--title-color);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+
+}
+
+.link__icon {
+    color: var(--primary-color);
+    margin-left: 20px;
+    transition: all 0.3s var(--transition);
+}
+
+.link:hover .link__icon {
+    margin-left: 15px;
+}
