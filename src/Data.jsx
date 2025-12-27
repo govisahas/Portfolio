@@ -1,4 +1,4 @@
-import Song from './assets/song.png';
+import Song from './assets/Song.png';
 import web_design from './assets/web_design.png';
 import builtrackr from './assets/builtrackr.png';
 import health_care from './assets/health_care.png';

@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.588);
     backdrop-filter: blur(8px);
     z-index: 9998;
 }
@@ -45,15 +45,17 @@
 
 .modal__content {
     background: linear-gradient(135deg,
-            rgba(255, 255, 255, 0.1) 0%,
-            rgba(255, 255, 255, 0.05) 100%);
+            rgba(20, 20, 30, 0.95) 0%,
+            rgba(15, 15, 25, 0.455) 100%);
     backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 20px;
     padding: 2.5rem;
     position: relative;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
 }
+
+
 
 
 .modal__close {
@@ -109,7 +111,7 @@
 }
 
 .modal__category {
-   color: var(--primary-color);
+    color: var(--primary-color);
     font-size: var(--smaller-font-size);
     font-weight: 700;
     margin-bottom: 20px;
@@ -121,7 +123,7 @@
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
-    color: var(--title-color);
+    color: #FFFF;
     line-height: 1.2;
 }
 
@@ -132,14 +134,14 @@
 .modal__description p {
     font-size: 1rem;
     line-height: 1.8;
-    color: var(--text-color);
+    color: #FFFF;
 }
 
 .modal__subtitle {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--title-color);
+    color: #FFFF;
 }
 
 
@@ -159,7 +161,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     font-size: 0.875rem;
-    color: var(--title-color);
+    color: #FFFF;
     transition: all 0.3s ease;
 }
 
@@ -270,7 +272,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 0px;
-    
+
     border: 2px solid #24292e4c;
     transition: transform 0.3s ease;
     cursor: pointer;

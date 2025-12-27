@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+import './Header.css';
 import { links } from '../../Data';
 import { FaLinkedin, FaGithub } from 'react-icons/fa6';
 import { BsMoon, BsSun } from 'react-icons/bs';
