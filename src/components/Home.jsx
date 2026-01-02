@@ -32,7 +32,7 @@ const Home = () => {
 
                     <motion.p variants={fadeUpVariants} className="home__description">
                         I graduated with a BSc (Hons) in Software Engineering, First Class, from the University of Colombo School of Computing.
-                        With experience in Quality Assurance Engineering,
+                       I have experience in Quality Assurance Engineering,
                         I create user-friendly, engaging digital experiences and enjoy exploring the intersection of design, code, and interaction to craft thoughtful digital solutions.
                     </motion.p>
 

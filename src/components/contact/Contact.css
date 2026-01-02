@@ -97,3 +97,18 @@
     column-gap: 30px;
 
 }
+
+
+@media screen and (max-width:768px){
+    .contact__container {
+        grid-template-columns:1fr;
+        
+    }
+}
+
+@media screen and (max-width:480px){
+    .contact__container {
+        grid-template-columns:1fr;
+        
+    }
+}

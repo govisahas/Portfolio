@@ -12,6 +12,7 @@ import two from './assets/two.jpeg';
 import three from './assets/three.jpeg';
 import four from './assets/four.jpeg';
 import five from './assets/five.jpeg';
+import octo from './assets/octo.png';
 
 
 
@@ -155,7 +156,7 @@ export const projects = [
       'Bulitrackr was created to address the everyday challenges faced on construction sites, where fragmented communication and manual tracking often lead to delays and errors. The platform was designed and developed as a comprehensive web solution to streamline workflow management, task tracking, and team collaboration in a single system.By focusing on clarity, usability, and real-world site requirements, the project explores how thoughtful digital design and modern web technologies can improve efficiency and coordination for construction managers and their teams.',
     technologies: ['React', 'Node.js', 'PostgreSQL', 'Express','React Native'],
     githubLink: '',
-    figmaLink: 'https://www.figma.com/design/CymN8rJMw44jgFIE13ktkG/BuilTrackr?node-id=240-783&m=dev&t=IpZmejsDHfoIy0su-1',
+    figmaLink: 'https://www.figma.com/design/CymN8rJMw44jgFIE13ktkG/BuilTrackr?node-id=0-1&t=DAB8z9O1sgn9Fqfr-1',
   },
   {
     id: 3,
@@ -168,7 +169,7 @@ export const projects = [
       'A UI/UX project created for the RevolUX design competition, focused on crafting an engaging and user-friendly experience. The project emphasizes sustainable living and environmental awareness through thoughtful interaction design and compelling visual storytelling.',
     technologies: ['Figma', 'UI/UX Design', 'Prototyping'],
     githubLink: '',
-    figmaLink: '',
+    figmaLink: 'https://www.figma.com/design/m5XcXArWZhFue0P95fRCl2/Earthlings?node-id=0-1&t=2071OycJbZgD9nar-1',
   },
 
   {
@@ -182,7 +183,7 @@ export const projects = [
       'Designed comprehensive login and landing pages for a health care application, focusing on clarity, ease of use, and a calm user experience. The design prioritizes accessibility and user comfort, creating an inviting interface for health-conscious users.',
     technologies: ['Figma', 'UI/UX Design', 'Mobile Design'],
     githubLink: '',
-    figmaLink: '',
+    figmaLink: 'https://www.figma.com/design/eQladtiXvvH8F7aR1aTeEM/Heath-care?node-id=0-1&t=DnTdCqedvcG9Q7SF-1',
   },
   {
     id: 5,
@@ -194,8 +195,9 @@ export const projects = [
     fullDescription:
       'A simple platform game designed and developed as part of a Game Development module. The project focuses on core game mechanics, level design, and player engagement. Features include dynamic obstacles, collectibles, and progressive difficulty to create an enjoyable gaming experience.',
     technologies: ['Unity', 'C#', 'Game Design'],
-    githubLink: '',
+    githubLink: 'https://github.com/govisahas/legendary-octo-run.git',
     figmaLink: '',
+    additionalImages: [octo],
   },
   {
     id: 6,
@@ -208,7 +210,7 @@ export const projects = [
       'A minimal interface design for a music streaming application, inspired by Spotify. The design emphasizes clean aesthetics, intuitive navigation, and seamless music discovery. Features include playlist management, artist profiles, and a modern player interface.',
     technologies: ['Figma', 'UI/UX Design', 'Interface Design'],
     githubLink: '',
-    figmaLink: '',
+    figmaLink: 'https://www.figma.com/design/cvtUlE9rT1Nsf8Hou0sOgj/Song-App?node-id=0-1&t=d2ynDSIPPmIvCep8-1',
   },
   {
     id: 7,
@@ -220,8 +222,8 @@ export const projects = [
     fullDescription:
       'A research-based project developing an educational mobile application for dyslexic learners. The app incorporates gamification elements and personalized learning paths to make education more accessible and engaging. Features adaptive difficulty, progress tracking, and interactive exercises designed specifically for dyslexic students.',
     technologies: ['React Native', 'Firebase', 'Educational Design', 'Gamification'],
-    githubLink: '',
-    figmaLink: '',
+    githubLink: 'https://github.com/govisahas/Akuru_Mithura_Research.git',
+    figmaLink: 'https://www.figma.com/design/wrcW4LHNU4evokrg1JKT5Q/Research-project?node-id=0-1&t=MjRkxIwl9f1nQTAi-1',
   },
   {
     id: 8,
@@ -234,7 +236,7 @@ export const projects = [
       'A personal web application for organizing and preserving memories, designed to provide a calm, distraction-free digital space. The interface focuses on simplicity and emotional connection, allowing users to curate their memories with ease and mindfulness.',
     technologies: ['Figma', 'UI/UX Design', 'Web Design'],
     githubLink: '',
-    figmaLink: '',
+    figmaLink: 'https://www.figma.com/design/Irm8Z2EfOk7KUzIoLwSgHN/My-website?node-id=0-1&t=hzgp6c6eodjHDz4t-1',
   },
   {
     id: 9,

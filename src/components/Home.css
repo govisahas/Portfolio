@@ -378,8 +378,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -426,7 +426,7 @@
 /* New centers */
 .home__tech-icon.godot {
     top: 50%;
-    left: 120%;
+    left: 110%;
     transform: translateX(-50%);
     color: #478CBF;
     background: rgba(71, 140, 191, 0.1);
@@ -434,7 +434,7 @@
 }
 
 .home__tech-icon.figma{
-    bottom: -120px;
+    bottom: -60px;
     left: 50%;
     transform: translateX(-50%);
     color: #f3611d;
@@ -448,7 +448,7 @@
 
 .home__tech-icon.uipath {
     top: 50%;
-    left: -40px;
+    left: -20px;
     transform: translateY(-50%);
     color: #FA4616;
     background: rgba(250, 70, 22, 0.1);

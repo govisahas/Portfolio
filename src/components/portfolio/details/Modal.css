@@ -12,7 +12,7 @@
 
 .modal__wrapper {
     position: fixed;
-    top: 0;
+    top: 10%;
     left: 25%;
     transform: translate(-50%, -50%);
     z-index: 9999;
@@ -285,11 +285,14 @@
 
 @media screen and (max-width: 768px) {
     .modal__wrapper {
+        left: 2.5%;
+        top:2%;
         width: 95%;
         max-height: 95vh;
     }
 
     .modal__content {
+        left: 0;
         padding: 1.5rem;
     }
 
@@ -334,6 +337,7 @@
 
 @media screen and (max-width: 480px) {
     .modal__content {
+        
         padding: 1rem;
     }
 

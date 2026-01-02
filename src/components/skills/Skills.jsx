@@ -33,9 +33,9 @@ const Skills = () => {
             </div>
 
 
-            <div className="skills__container container grid">
+            <div className="skills__techstack container grid">
                 <div className="skills__item" style={{ gridColumn: '1 / -1' }}>
-                    <p className="section__subtitle" style={{ textAlign: "center" }}>Tech <span>Stack</span></p>
+                    <p className="section__subtitle" >Tech <span>Stack</span></p>
 
                     <div className="skills__marquee">
                         <div className="skills__marquee-content">

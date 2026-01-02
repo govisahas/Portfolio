@@ -9,7 +9,13 @@
     row-gap: 70px;
     padding-bottom: 2%;
 }
+.skills__techstack {
 
+     grid-template-columns: repeat(3, 1fr);
+    row-gap: 70px;
+    padding-bottom: 2%;
+
+}
 .skills__item {
     display: flex;
     flex-direction: column;
@@ -149,4 +155,33 @@
     to {
         transform: translateX(-50%);
     }
+}
+
+
+@media screen and (max-width: 768px) {
+    .skills__container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 70px;
+    padding-bottom: 2%;
+}
+
+.skills__techstack{
+    width: 100%;
+}
+   
+    
+}
+
+
+@media screen and (max-width: 480px) {
+.skills__container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 70px;
+    padding-bottom: 2%;
+}
+
+.skills__techstack{
+    width: 100%;
+}
+    
 }
