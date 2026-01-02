@@ -285,9 +285,9 @@
 
 @media screen and (max-width: 768px) {
     .modal__wrapper {
-        left: 2.5%;
+        left: 5%;
         top:2%;
-        width: 95%;
+        width: 90%;
         max-height: 95vh;
     }
 

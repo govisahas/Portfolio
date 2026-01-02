@@ -7,6 +7,7 @@ import { SiMongodb, SiPostgresql, SiTypescript, SiCanva, SiTailwindcss, SiNextdo
 import "./Home.css";
 import { motion } from "framer-motion";
 import { fadeUpVariants, containerVariants, imgVariants, shapeVariants } from "./Animations";
+import CV from "../assets/CV.pdf";
 
 
 const Home = () => {
@@ -32,7 +33,7 @@ const Home = () => {
 
                     <motion.p variants={fadeUpVariants} className="home__description">
                         I graduated with a BSc (Hons) in Software Engineering, First Class, from the University of Colombo School of Computing.
-                       I have experience in Quality Assurance Engineering,
+                        I have experience in Quality Assurance Engineering,
                         I create user-friendly, engaging digital experiences and enjoy exploring the intersection of design, code, and interaction to craft thoughtful digital solutions.
                     </motion.p>
 
@@ -47,8 +48,8 @@ const Home = () => {
                     </motion.div>
 
                     <motion.div variants={fadeUpVariants} className="home__buttons">
-                        <a href="" className="btn text-cs">Download CV</a>
-                        <a href="" className="text-cs hero__link">My Skills</a>
+                        <a download="" href={CV} className="btn text-cs">Download CV</a>
+                        <a href="#skills" className="text-cs hero__link">My Skills</a>
                     </motion.div>
                 </motion.div>
 
