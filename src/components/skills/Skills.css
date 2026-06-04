@@ -1,5 +1,8 @@
 .skills {
     padding-top: 5%;
+    background-image: var(--second-gradient);
+    padding-bottom: 100px;
+     min-height: 92vh;
 }
 
 

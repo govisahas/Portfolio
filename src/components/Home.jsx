@@ -7,7 +7,7 @@ import { SiMongodb, SiPostgresql, SiTypescript, SiCanva, SiTailwindcss, SiNextdo
 import "./Home.css";
 import { motion } from "framer-motion";
 import { fadeUpVariants, containerVariants, imgVariants, shapeVariants } from "./Animations";
-import CV from "../assets/CV.pdf";
+import CV from "../assets/Updated_CV.pdf";
 
 
 const Home = () => {
@@ -32,9 +32,7 @@ const Home = () => {
                     </motion.h1>
 
                     <motion.p variants={fadeUpVariants} className="home__description">
-                        I graduated with a BSc (Hons) in Software Engineering, First Class, from the University of Colombo School of Computing.
-                        I have experience in Quality Assurance Engineering,
-                        I create user-friendly, engaging digital experiences and enjoy exploring the intersection of design, code, and interaction to craft thoughtful digital solutions.
+                        I hold a First Class BSc (Hons) in Software Engineering from the University of Colombo School of Computing and currently work as a Software Quality Assurance Engineer. With a strong foundation in test automation and software quality, my passion also extends into UI/UX design, full-stack development. I thrive at the intersection of design and code, dedicated to crafting secure, engaging, and high-quality digital experiences.
                     </motion.p>
 
                     <motion.div variants={fadeUpVariants} className="home__socials">

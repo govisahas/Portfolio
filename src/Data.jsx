@@ -13,7 +13,7 @@ import three from './assets/three.jpeg';
 import four from './assets/four.jpeg';
 import five from './assets/five.jpeg';
 import octo from './assets/octo.png';
-
+import owasp from './assets/owasp.png';
 
 
 import { FaReact, FaNodeJs, FaGitAlt, FaDocker, FaJava, FaPython, FaFigma } from "react-icons/fa";
@@ -238,22 +238,35 @@ export const projects = [
     githubLink: '',
     figmaLink: 'https://www.figma.com/design/Irm8Z2EfOk7KUzIoLwSgHN/My-website?node-id=0-1&t=hzgp6c6eodjHDz4t-1',
   },
+  // {
+  //   id: 9,
+  //   img: minimal,
+  //   category: 'Photography',
+  //   title: 'Untitled, 2025',
+  //   description:
+  //     'A collection of photos captured on phone focusing on composition, light, and visual storytelling.',
+  //   fullDescription:
+  //     'A curated set of six photographs exploring low-light environments and muted tones, focusing on composition, atmosphere, and visual storytelling. The series captures quiet moments across urban spaces, natural environments, and small forms of life, emphasizing mood and stillness',
+  //   technologies: ['Photography', 'Mobile Photography', 'Visual Arts'],
+  //   githubLink: '',
+  //   figmaLink: '',
+  //   additionalImages: [one, two, three, minimal,four,five],
+  // },
   {
-    id: 9,
-    img: minimal,
-    category: 'Photography',
-    title: 'Untitled, 2025',
+    id: 10,
+    img: owasp,
+    category: 'Blog',
+    title: 'A Guide to OWASP Best Practices by a Developer and a QA',
     description:
-      'A collection of photos captured on phone focusing on composition, light, and visual storytelling.',
+      'A complete guide to OWASP security best practices for developers and QA. Learn how to secure code, test vulnerabilities, and prevent data breaches.',
     fullDescription:
-      'A curated set of six photographs exploring low-light environments and muted tones, focusing on composition, atmosphere, and visual storytelling. The series captures quiet moments across urban spaces, natural environments, and small forms of life, emphasizing mood and stillness',
-    technologies: ['Photography', 'Mobile Photography', 'Visual Arts'],
+      'A complete guide to OWASP security best practices for developers and QA. Learn how to secure code, test vulnerabilities, and prevent data breaches. This article dives deep into the OWASP Top 10, providing actionable insights from both a developer\'s and a QA engineer\'s perspective.',
+    technologies: ['Security', 'OWASP', 'QA', 'Development'],
     githubLink: '',
     figmaLink: '',
-    additionalImages: [one, two, three, minimal,four,five],
+    blogLink: 'https://www.creativesoftware.com/blog-posts/a-guide-to-owasp-best-practices-by-a-developer-and-qa',
   },
 ];
-
 
 
 export const additionalSkills = [
@@ -273,3 +286,47 @@ export const additionalSkills = [
   { id: 15, name: 'Figma', icon: <FaFigma /> },
   { id: 16, name: 'Unity', icon: <SiUnity /> },
 ];
+
+export const experiences=[
+  {id:1,
+  title:"Software Quality Assurance Engineer",
+  company:"Creative Software",
+  date:"October 2024 - Present",
+  description:[
+    "Collaborate closely with cross-functional teams, including product managers, developers, and designers, to understand project requirements and translate them into comprehensive test plans.",
+    "Analyze and interpret product requirements, user stories, and technical documentation to identify potential risks and failure points.",
+    "Design, develop, and execute detailed manual and automated test cases for web applications.",
+    "Perform various types of testing, including functional, regression,smoke, Usability testing",
+    "Document defects and issues with clear, concise descriptions, including steps to reproduce, actual results, and expected results.",
+    "Track defects through their lifecycle, collaborating with development teams to ensure timely resolution and verification.",
+    "Utilize automation testing tools and frameworks (UiPath and Playwright) to streamline testing processes and improve efficiency.",
+    "Develop and maintain automated test scripts for web applications to ensure consistent and reliable testing.",
+    "Using Playwright Agentic AI to improve test cases generation efficiency",
+    "Participate in Agile ceremonies, including sprint planning, daily stand-ups, sprint reviews, and retrospectives.",
+    "Creating test plan and strategies to improve the software testing quality ",
+    "Maintaining regression suite for the product ",
+    "Prepare and present test summary reports to stakeholders.",
+
+  ],
+  },
+  {id: 2,
+  title:"Intern -Software Quality Assurance Engineer",
+  company:"Creative Software",
+  date:"November 2023 - June 2024",
+  description: [
+    "Developed mind map to identify user scenarios",
+    "create test cases based on test scenarios",
+    "Execute manual tests to identify and document defects",
+    "Collaborated with developers to resolve issues",
+    "Participated in Agile ceremonies, including sprint planning and stand-ups",
+    "Researched test automation tools and selecting most appropriate for the project",
+    "Automated tests using UiPath and Selenium",
+    "Troubleshooting automation issues: Identifying and resolving any issues that were encounted during the test automation process",
+    "Demostrated and introduced UiPath as a desktop testing tools to the client and present how they can used to improve the software testing quality",
+    "Created API collection to test endpoints using postman",
+    "Created test cycles in Jira and executed test cases for regression",
+    
+  ],
+  },
+  
+]

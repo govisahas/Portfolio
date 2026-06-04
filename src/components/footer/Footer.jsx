@@ -15,8 +15,8 @@ const Footer = () => {
                         </a>
 
                     </div>
-                     <p className="footer__copyright text-cs"> &copy; 2025 Sahasrika. All rights reserved.</p>
-                    <p className="footer__copyright text-cs">Developed by <span>Sahasrika</span> with <i className="fa-solid fa-heart"></i></p>
+                     <p className="footer__copyright text-cs"> &copy; 2026 Sahasrika. All rights reserved.</p>
+                    
            </div>
         </footer>
     );

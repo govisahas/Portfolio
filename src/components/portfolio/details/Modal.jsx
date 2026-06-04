@@ -36,6 +36,7 @@ const Modal = ({ project, isOpen, onClose }) => {
         technologies,
         githubLink,
         figmaLink,
+        blogLink,
         additionalImages
     } = project;
 
@@ -99,7 +100,7 @@ const Modal = ({ project, isOpen, onClose }) => {
                                 )}
 
                               
-                                {(githubLink || figmaLink) && (
+                                {(githubLink || figmaLink || blogLink) && (
                                     <div className="modal__links">
                                         {githubLink && (
                                             <a
@@ -122,6 +123,18 @@ const Modal = ({ project, isOpen, onClose }) => {
                                             >
                                                 <SiFigma />
                                                 <span>View on Figma</span>
+                                                <FaExternalLinkAlt className="modal__link-icon" />
+                                            </a>
+                                        )}
+                                        {blogLink && (
+                                            <a
+                                                href={blogLink}
+                                                className="modal__link modal__link--blog"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                <FaExternalLinkAlt />
+                                                <span>Read Article</span>
                                                 <FaExternalLinkAlt className="modal__link-icon" />
                                             </a>
                                         )}

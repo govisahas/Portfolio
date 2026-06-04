@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './components/Home';
-import Services from './components/services/Services';
+import Experiences from './components/experiences/Experiences';
 import Skills from './components/skills/Skills';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
@@ -17,7 +17,7 @@ function App() {
     <main className="main">
       <Header />
       <Home />
-      <Services />
+      <Experiences />
       <Skills />  
       <Portfolio />
       <Contact />
